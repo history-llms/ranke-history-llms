@@ -65,7 +65,7 @@ The existing Ranke 4B models have four billion parameters and use the Qwen3 arch
 | 1913 | 1913 | Base and chat | Base |
 | 1929 | 1929 | Base and chat | Base |
 
-The table treats each named year as inclusive. Earlier documentation gives 1899 as the intended last year for the 1900 checkpoint. Whether its training data included texts published in 1900 remains unverified. The v2 training corpus underwent additional cleaning to address misdated works and later material identified in v1. Researchers comparing results should record both the version and the checkpoint.
+The v2 training corpus underwent additional cleaning to address misdated works and later material identified in v1. Researchers comparing results should record both the version and the checkpoint.
 
 ## Example Ranke-4B-1913 responses
 
