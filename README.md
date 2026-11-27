@@ -57,9 +57,9 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 
 ## Project Overview
 
-We build models for research in the humanities, social sciences and computer science. Two choices shape the project. First, we select training texts by publication date so that researchers can ask what was thinkable, predictable or sayable at a given point in time. Second, when adapting a base model for conversation, we aim to preserve the normative judgments it acquired during pretraining, an approach we call *uncontaminated bootstrapping*.
+We build models for research in the humanities, social sciences and computer science. When adapting a base model for conversation, we aim to preserve the normative judgments it acquired during pretraining, an approach we call *uncontaminated bootstrapping*.
 
-We plan to share research artifacts, data and accompanying working papers. Our aim is to make the models accessible to researchers and teachers and to explore safeguards for wider public access.
+We plan to share the pretraining code and data preparation tools alongside the working papers. Our aim is to make the models accessible to researchers and teachers and to explore safeguards for wider public access.
 
 ## Models and publication cutoffs
 
