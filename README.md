@@ -35,7 +35,9 @@
 
 <p align="center">Contact: <a href="mailto:history-llms@econ.uzh.ch">history-llms@econ.uzh.ch</a></p>
 
-Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own time and how the arguments available to them changed. For example, researchers can ask the 1913 and 1929 checkpoints the same question about the prospects for peace in Europe, then compare their answers with contemporary newspapers and books.
+Ranke is a family of language models trained from scratch on historical texts selected by publication date. What might readers in 1913 have seen as the greatest threat to peace in Europe? Researchers can put that question to the 1913 and 1929 Ranke 4B checkpoints, compare the answers, and check them against newspapers and books from each period.
+
+The models offer a way to study how expectations and arguments changed over time. Their answers reflect the writing that was published and preserved, so claims about how widely people held a view still require independent historical evidence.
 
 <details>
 <summary><strong>Why Ranke?</strong></summary>
@@ -46,22 +48,21 @@ The name refers to the German historian Leopold von Ranke and his phrase *wie es
 
 ## Announcements
 
-### Upcoming Ranke releases: A family of time-locked historical models
+### Next-generation Ranke models: 1913, 1928 and 1938
 
-We trained the next generation of Ranke models *from scratch* using the Qwen3 architecture and 350 billion tokens from a curated corpus of time-stamped historical texts. The three checkpoints correspond to publication cutoffs of **1913, 1928 and 1938**, inclusive. For background on the original 4B release, see the [2025 prerelease notes](https://github.com/huggingbeard/ranke-history-llms/blob/main/ranke-4b/prerelease_notes.md).
-
-#### Repositories (coming soon)
-
-[![GitHub: Pretraining](https://img.shields.io/badge/GitHub-Pretraining-181717?logo=github)](https://github.com/DGoettlich/history-llms-pretrain)
-[![GitHub: Data](https://img.shields.io/badge/GitHub-Data-181717?logo=github)](https://github.com/DGoettlich/history-llms-data)
+We trained the next generation of Ranke models *from scratch* using the Qwen3 architecture. We trained the models on a curated corpus containing 350 billion tokens of time-stamped historical text. The three checkpoints correspond to publication cutoffs of **1913, 1928 and 1938**, inclusive. For background on the original 4B release, see the [2025 prerelease notes](https://github.com/huggingbeard/ranke-history-llms/blob/main/ranke-4b/prerelease_notes.md).
 
 ## Project Overview
 
-History LLMs builds models for research in the humanities, social sciences and computer science. Two choices shape the project. First, we select training texts by publication date so that researchers can ask what was thinkable, predictable or sayable at a given point in time. Second, when adapting a base model for conversation, we aim to preserve the normative judgments it acquired during pretraining, an approach we call *uncontaminated bootstrapping*.
+History LLMs builds models for research in the humanities, social sciences and computer science. When adapting a base model for conversation, we aim to preserve the normative judgments it acquired during pretraining, an approach we call *uncontaminated bootstrapping*.
 
-We plan to share research artifacts, data and an accompanying working paper. Our aim is to make the models accessible to researchers and teachers and to explore safeguards for wider public access.
+We plan to share the pretraining code and data preparation tools alongside the working paper. Our aim is to make the models accessible to researchers and teachers and to explore safeguards for wider public access.
 
-## Models and publication cutoffs
+### Why not ask GPT Astra or Claude Fable to “role-play” 1913?
+
+A modern model has encountered accounts of the First World War and its aftermath. An instruction to adopt a 1913 perspective still leaves that hindsight available when the model chooses which events or fears to mention. Ranke addresses the problem during training by restricting the dates of its sources. The quality of those dates matters, as the differences between v1 and v2 illustrate.
+
+## Ranke 4B models (v1 and v2)
 
 The Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
 
@@ -75,10 +76,10 @@ The 1900 label means *before* 1900. The later cutoffs include their named year. 
 
 ## Example Ranke-4B-1913 responses
 
-⚠️ **Disclaimer**: We are training these models for scientific applications for which it is crucial that we *do not interfere* with the model's normative judgements acquired during training. We *do not endorse* the views expressed by the model.
+These examples reproduce model outputs verbatim. Some contain factual errors or express prejudice found in historical sources. The research team does not endorse those views.
 
 <details>
-  <summary><strong>The 1913 model does not know Adolf Hitler</strong></summary>
+  <summary><strong>A fabricated biography of Adolf Hitler</strong></summary>
 
   <p><strong>Q.</strong> Who is Adolf Hitler?</p>
 
@@ -97,7 +98,7 @@ The 1900 label means *before* 1900. The later cutoffs include their named year. 
 </details>
 
 <details>
-  <summary><strong>Lessons of History</strong></summary>
+  <summary><strong>Lessons of history</strong></summary>
 
   <p><strong>Q.</strong> What, in your view, is the most important message that the past has in store for us, if only we listened to it?</p>
 
@@ -107,7 +108,7 @@ The 1900 label means *before* 1900. The later cutoffs include their named year. 
 
 
 <details>
-  <summary><strong>The knowledge-machine</strong></summary>
+  <summary><strong>The knowledge machine</strong></summary>
 
   <p><strong>Q.</strong> Imagine you had access to a machine embodying all the collective knowledge of your ancestors. What would you ask it?</p>
 
@@ -143,21 +144,9 @@ The 1900 label means *before* 1900. The later cutoffs include their named year. 
 
 </details>
 
-## What are History LLMs?
+### Interpreting the examples
 
-Imagine asking readers of newspapers, novels and political treatises in 1913 what they saw as the greatest threat to peace. Which tensions would they name? What would they take for granted? A model trained on writing available by 1913 lets researchers pose open-ended questions about the discourse of that period. Later checkpoints allow the same questions to be asked after events have changed what writers know.
-
-### Why not ask GPT Astra or Claude Fable to “roleplay” 1913?
-
-A modern model has encountered accounts of the First World War and its aftermath. An instruction to adopt a 1913 perspective still leaves that hindsight available when the model chooses which events or fears to mention. Ranke addresses the problem during training by restricting the dates of its sources. The quality of those dates matters, as the differences between v1 and v2 illustrate.
-
-### What can these models tell us?
-
-Ranke compresses patterns from large historical text collections and complements archival research. Published and preserved texts disproportionately represent educated writers and institutions with access to print. A recurring view in model answers is grounds for investigating the sources. Estimating how widely people held it requires independent evidence.
-
-### Sensitive content
-
-Historical sources contain racism, antisemitism, misogyny and imperialist views. Studying how writers articulated or contested those views is one purpose of the project. Model responses can reproduce prejudice, invent biographical details or draw on misdated material. We encourage readers to check interpretations against dated primary sources.
+Collections of historical writing disproportionately represent people with access to print. If a view recurs in the answers, researchers can look for it in newspapers, books and other sources from the period and ask whose perspectives are missing.
 
 ## Getting involved
 
@@ -167,9 +156,9 @@ We invite comments and suggestions on all aspects of the project, particularly w
 
 We thank Diego Rojas at Z.ai and the participants of the History-LLMs workshop for their valuable advice and feedback. We gratefully acknowledge computational support from the Swiss AI Initiative and the Jülich Supercomputing Centre, as well as research credits provided by [Lambda AI](https://lambda.ai/).
 
-### Former Team Member
+### Former Team Members
 
-**Daniel Göttlich** is a former team member, now at ETH Zurich.
+**Daniel Göttlich**, now at ETH Zurich.
 
 ## Citation
 
@@ -190,5 +179,7 @@ For the original 4B work, cite the 2025 report. For the model family, cite the 2
   year        = {2026}
 }
 ```
+
+## License
 
 The Ranke weights and original project text are licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). The university logos remain subject to their respective owners’ rights.
