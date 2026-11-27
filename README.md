@@ -48,7 +48,7 @@ The name refers to the German historian Leopold von Ranke and his phrase *wie es
 
 ### Next-generation Ranke models: 1913, 1928 and 1938
 
-We trained the next generation of Ranke models *from scratch* using the Qwen3 architecture. We trained the models on a curated corpus containing 350 billion tokens of time-stamped historical text. The three checkpoints correspond to publication cutoffs of **1913, 1928 and 1938**, inclusive. For background on the original 4B release, see the [2025 prerelease notes](https://github.com/huggingbeard/ranke-history-llms/blob/main/ranke-4b/prerelease_notes.md).
+We trained the next generation of Ranke models on a curated corpus containing 350 billion tokens of time-stamped historical text. The three checkpoints correspond to publication cutoffs of **1913, 1928 and 1938**. For background on the original 4B release, see the [2025 prerelease notes](https://github.com/huggingbeard/ranke-history-llms/blob/main/ranke-4b/prerelease_notes.md).
 
 #### Repositories (coming soon)
 
