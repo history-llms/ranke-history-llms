@@ -16,8 +16,22 @@
   </a>
 </p>
 
-| **Guohui Jiang**<br>University of Cologne | **Dominik Loibner**<br>University of Zurich | **Hans-Joachim Voth**<br>University of Zurich |
-| :---: | :---: | :---: |
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Guohui Jiang</strong><br/>
+      <sub>University of Cologne</sub>
+    </td>
+    <td align="center">
+      <strong>Dominik Loibner</strong><br/>
+      <sub>University of Zurich</sub>
+    </td>
+    <td align="center">
+      <strong>Hans-Joachim Voth</strong><br/>
+      <sub>University of Zurich</sub>
+    </td>
+  </tr>
+</table>
 
 Contact: [history-llms@econ.uzh.ch](mailto:history-llms@econ.uzh.ch)
 
