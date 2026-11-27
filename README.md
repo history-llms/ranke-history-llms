@@ -4,14 +4,14 @@
   <a href="https://www.uzh.ch/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/logos/uzh-logo-white.png">
-      <img src="assets/logos/uzh-logo.png" alt="University of Zurich" width="280" align="middle">
+      <img src="assets/logos/uzh-logo.png" alt="University of Zurich" width="220" align="middle">
     </picture>
   </a>
   &nbsp;&nbsp;&nbsp;
   <a href="https://www.uni-koeln.de/">
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="assets/logos/university-of-cologne-logo-white.png">
-      <img src="assets/logos/university-of-cologne-logo.png" alt="University of Cologne" width="320" align="middle">
+      <img src="assets/logos/university-of-cologne-logo.png" alt="University of Cologne" width="220" align="middle">
     </picture>
   </a>
 </p>
