@@ -147,7 +147,7 @@ The 1900 label means *before* 1900. The later cutoffs include their named year. 
 
 Imagine asking readers of newspapers, novels and political treatises in 1913 what they saw as the greatest threat to peace. Which tensions would they name? What would they take for granted? A model trained on writing available by 1913 lets researchers pose open-ended questions about the discourse of that period. Later checkpoints allow the same questions to be asked after events have changed what writers know.
 
-### Why not just prompt GPT-5 to “roleplay” 1913?
+### Why not ask GPT Astra or Claude Fable to “roleplay” 1913?
 
 A modern model has encountered accounts of the First World War and its aftermath. An instruction to adopt a 1913 perspective still leaves that hindsight available when the model chooses which events or fears to mention. Ranke addresses the problem during training by restricting the dates of its sources. The quality of those dates matters, as the differences between v1 and v2 illustrate.
 
