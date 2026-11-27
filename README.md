@@ -18,6 +18,12 @@
 
 Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own time and how the arguments available to them changed. For example, researchers can ask the 1913 and 1929 checkpoints the same question about the prospects for peace in Europe, then compare their answers with contemporary newspapers and books.
 
+<p align="center">
+  <a href="assets/figures/ranke-title-page.png">
+    <img src="assets/figures/ranke-title-page.png" width="480" alt="Illustrated Ranke title page with a scholar at his desk and the motto ‘wie es eigentlich gewesen’ (‘as it actually was’).">
+  </a>
+</p>
+
 ## Announcements
 
 ### Upcoming Ranke releases: A family of time-locked historical models
