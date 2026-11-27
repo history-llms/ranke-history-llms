@@ -16,6 +16,11 @@
   </a>
 </p>
 
+| **Guohui Jiang**<br>University of Cologne | **Dominik Loibner**<br>University of Zurich | **Hans-Joachim Voth**<br>University of Zurich |
+| :---: | :---: | :---: |
+
+Contact: [history-llms@econ.uzh.ch](mailto:history-llms@econ.uzh.ch)
+
 Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own time and how the arguments available to them changed. For example, researchers can ask the 1913 and 1929 checkpoints the same question about the prospects for peace in Europe, then compare their answers with contemporary newspapers and books.
 
 <details>
@@ -140,17 +145,13 @@ Ranke compresses patterns from large historical text collections and complements
 
 Historical sources contain racism, antisemitism, misogyny and imperialist views. Studying how writers articulated or contested those views is one purpose of the project. Model responses can reproduce prejudice, invent biographical details or draw on misdated material. We encourage readers to check interpretations against dated primary sources.
 
-## Team and contact
-
-- **Guohui Jiang**, University of Cologne
-- **Dominik Loibner**, University of Zurich
-- **Hans-Joachim Voth**, University of Zurich
+## Former team member
 
 **Daniel Göttlich** is a former team member, now at ETH Zurich.
 
-### Getting involved
+## Getting involved
 
-We invite comments and suggestions on all aspects of the project, particularly which periods and regions to cover, which historical questions to probe and how to validate responses against archival evidence. Contact [history-llms@econ.uzh.ch](mailto:history-llms@econ.uzh.ch).
+We invite comments and suggestions on all aspects of the project, particularly which periods and regions to cover, which historical questions to probe and how to validate responses against archival evidence.
 
 ## Acknowledgements
 
