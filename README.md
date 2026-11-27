@@ -35,7 +35,7 @@
 
 <p align="center">Contact: <a href="mailto:history-llms@econ.uzh.ch">history-llms@econ.uzh.ch</a></p>
 
-Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own times and how their arguments evolved. For example, one can ask the 1913, 1928 and 1938 checkpoints the same question: “What are the prospects for peace in Europe?” The answers can then be compared with one another and with newspapers and books from each period.
+Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own times and how their arguments evolved. For example, one can ask the 1913, 1928 and 1938 checkpoints the same question, compare the answers with each other and with contemporary sources such as newspapers and books from each period.
 
 <details>
 <summary><strong>Why Ranke?</strong></summary>
@@ -57,7 +57,7 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 
 ## Existing Ranke 4B models
 
-The existing Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
+These four-billion-parameter models use the Qwen3 architecture. Each checkpoint is named for the latest publication year intended for its training corpus.
 
 | Checkpoint (inclusive cutoff) | December 2025 (v1) | August 2026 (v2) |
 |---|---|---|
@@ -91,7 +91,7 @@ The v2 training corpus underwent additional cleaning to address misdated works a
 </details>
 
 <details>
-  <summary><strong>Lessons of History</strong></summary>
+  <summary><strong>Lessons of history</strong></summary>
 
   <p><strong>Q.</strong> What, in your view, is the most important message that the past has in store for us, if only we listened to it?</p>
 
@@ -163,7 +163,7 @@ We thank Diego Rojas at Z.ai and the participants of the History-LLMs workshop f
 
 ### Former Team Members
 
-**Daniel Göttlich** is a former team member, now at ETH Zurich.
+**Daniel Göttlich**, now at ETH Zurich.
 
 ## Citation
 
@@ -184,5 +184,7 @@ For the original 4B work, cite the 2025 report. For the model family, cite the 2
   year        = {2026}
 }
 ```
+
+## License
 
 The Ranke weights and original project text are licensed under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0). The university logos remain subject to their respective owners’ rights.
