@@ -55,12 +55,6 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 [![GitHub: Pretraining](https://img.shields.io/badge/GitHub-Pretraining-181717?logo=github)](https://github.com/DGoettlich/history-llms-pretrain)
 [![GitHub: Data](https://img.shields.io/badge/GitHub-Data-181717?logo=github)](https://github.com/DGoettlich/history-llms-data)
 
-## Project Overview
-
-We build models for research in the humanities, social sciences and computer science. When adapting a base model for conversation, we aim to preserve the normative judgments it acquired during pretraining, an approach we call *uncontaminated bootstrapping*.
-
-We plan to share the pretraining code and data preparation tools alongside the working papers. Our aim is to make the models accessible to researchers and teachers and to explore safeguards for wider public access.
-
 ## Models and publication cutoffs
 
 The Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
