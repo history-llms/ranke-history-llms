@@ -33,7 +33,7 @@
   </tr>
 </table>
 
-Contact: [history-llms@econ.uzh.ch](mailto:history-llms@econ.uzh.ch)
+<p align="center">Contact: <a href="mailto:history-llms@econ.uzh.ch">history-llms@econ.uzh.ch</a></p>
 
 Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own time and how the arguments available to them changed. For example, researchers can ask the 1913 and 1929 checkpoints the same question about the prospects for peace in Europe, then compare their answers with contemporary newspapers and books.
 
