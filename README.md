@@ -160,7 +160,7 @@ We invite comments and suggestions on all aspects of the project, particularly w
 
 ## Acknowledgements
 
-We thank Diego Rojas at Z.ai and the participants of the History-LLMs workshop for their advice and feedback.
+We thank Diego Rojas at Z.ai and the participants of the History-LLMs workshop for their valuable advice and feedback. We gratefully acknowledge computational support from the Swiss AI Initiative and the Jülich Supercomputing Centre, as well as research credits provided by [Lambda AI](https://lambda.ai/).
 
 ## Citation
 
