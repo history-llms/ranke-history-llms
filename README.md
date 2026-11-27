@@ -35,7 +35,7 @@
 
 <p align="center">Contact: <a href="mailto:history-llms@econ.uzh.ch">history-llms@econ.uzh.ch</a></p>
 
-Ranke is a family of language models trained from scratch on historical texts selected by publication date. What might readers in 1913 have seen as the greatest threat to peace in Europe? Researchers can put that question to the 1913 and 1929 Ranke 4B checkpoints, compare the answers, and check them against newspapers and books from each period.
+Ranke is a family of language models trained from scratch on historical texts selected by publication date. What might readers in 1913 have seen as the greatest threat to peace in Europe?
 
 The models offer a way to study how expectations and arguments changed over time. Their answers reflect the writing that was published and preserved, so claims about how widely people held a view still require independent historical evidence.
 
