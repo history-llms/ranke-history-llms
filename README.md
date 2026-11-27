@@ -59,11 +59,11 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 
 The existing Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
 
-| Checkpoint | Nominal cutoff year (inclusive) | December 2025 (v1) | August 2026 (v2) |
-|---|---:|---|---|
-| 1900 | 1900 | Base | Base |
-| 1913 | 1913 | Base and chat | Base |
-| 1929 | 1929 | Base and chat | Base |
+| Checkpoint (inclusive cutoff) | December 2025 (v1) | August 2026 (v2) |
+|---|---|---|
+| 1900 | Base | Base |
+| 1913 | Base and chat | Base |
+| 1929 | Base and chat | Base |
 
 The v2 training corpus underwent additional cleaning to address misdated works and later material identified in v1. Researchers comparing results should record both the version and the checkpoint.
 
