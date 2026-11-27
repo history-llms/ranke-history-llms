@@ -55,7 +55,7 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 [![GitHub: Pretraining](https://img.shields.io/badge/GitHub-Pretraining-181717?logo=github)](https://github.com/DGoettlich/history-llms-pretrain)
 [![GitHub: Data](https://img.shields.io/badge/GitHub-Data-181717?logo=github)](https://github.com/DGoettlich/history-llms-data)
 
-## Models and publication cutoffs
+## Existing Ranke 4B models
 
 The existing Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
 
