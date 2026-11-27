@@ -23,12 +23,6 @@ Ranke is a family of language models trained from scratch on dated historical te
 
 The name refers to the German historian Leopold von Ranke and his phrase *wie es eigentlich gewesen*, often translated as “as it actually was.” Ranke sought to understand and reconstruct the past through the written sources and remnants available to him.
 
-<p align="center">
-  <a href="assets/figures/ranke-title-page.png">
-    <img src="assets/figures/ranke-title-page.png" width="480" alt="Illustrated Ranke title page with a scholar at his desk and the motto ‘wie es eigentlich gewesen’ (‘as it actually was’).">
-  </a>
-</p>
-
 </details>
 
 ## Announcements
