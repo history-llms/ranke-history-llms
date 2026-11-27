@@ -145,10 +145,6 @@ Ranke compresses patterns from large historical text collections and complements
 
 Historical sources contain racism, antisemitism, misogyny and imperialist views. Studying how writers articulated or contested those views is one purpose of the project. Model responses can reproduce prejudice, invent biographical details or draw on misdated material. We encourage readers to check interpretations against dated primary sources.
 
-## Former team member
-
-**Daniel Göttlich** is a former team member, now at ETH Zurich.
-
 ## Getting involved
 
 We invite comments and suggestions on all aspects of the project, particularly which periods and regions to cover, which historical questions to probe and how to validate responses against archival evidence.
@@ -156,6 +152,8 @@ We invite comments and suggestions on all aspects of the project, particularly w
 ## Acknowledgements
 
 We thank Diego Rojas at Z.ai and the participants of the History-LLMs workshop for their valuable advice and feedback. We gratefully acknowledge computational support from the Swiss AI Initiative and the Jülich Supercomputing Centre, as well as research credits provided by [Lambda AI](https://lambda.ai/).
+
+**Daniel Göttlich** is a former team member, now at ETH Zurich.
 
 ## Citation
 
