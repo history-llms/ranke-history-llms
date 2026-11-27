@@ -57,7 +57,7 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 
 ## Models and publication cutoffs
 
-The Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
+The existing Ranke 4B models have four billion parameters and use the Qwen3 architecture. The checkpoint names refer to the intended publication dates of their training sources.
 
 | Checkpoint | Latest intended publication year | December 2025 (v1) | August 2026 (v2) |
 |---|---:|---|---|
