@@ -21,7 +21,7 @@ Ranke is a family of language models trained from scratch on dated historical te
 <details>
 <summary><strong>Why Ranke?</strong></summary>
 
-The name refers to the German historian Leopold von Ranke and his phrase *wie es eigentlich gewesen*, often translated as “as it actually was.” Ranke sought to understand the past through the written sources and other surviving traces available to him.
+The name refers to the German historian Leopold von Ranke and his phrase *wie es eigentlich gewesen*, often translated as “as it actually was.” Ranke sought to understand and reconstruct the past through the written sources and remnants available to him.
 
 <p align="center">
   <a href="assets/figures/ranke-title-page.png">
