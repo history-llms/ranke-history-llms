@@ -52,8 +52,8 @@ We trained the next generation of Ranke models on a curated corpus containing 35
 
 #### Repositories (coming soon)
 
-[![GitHub: Pretraining](https://img.shields.io/badge/GitHub-Pretraining-181717?logo=github)](https://github.com/DGoettlich/history-llms-pretrain)
-[![GitHub: Data](https://img.shields.io/badge/GitHub-Data-181717?logo=github)](https://github.com/DGoettlich/history-llms-data)
+![GitHub: Pretraining — coming soon](https://img.shields.io/badge/GitHub-Pretraining-181717?logo=github)
+![GitHub: Data — coming soon](https://img.shields.io/badge/GitHub-Data-181717?logo=github)
 
 ## Existing Ranke 4B models
 
