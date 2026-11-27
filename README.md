@@ -78,7 +78,7 @@ The 1900 label means *before* 1900. The later cutoffs include their named year. 
 ⚠️ **Disclaimer**: We are training these models for scientific applications for which it is crucial that we *do not interfere* with the model's normative judgements acquired during training. We *do not endorse* the views expressed by the model.
 
 <details>
-  <summary><strong>The 1913 model does not know Adolf Hitler</strong></summary>
+  <summary><strong>A fabricated biography of Adolf Hitler</strong></summary>
 
   <p><strong>Q.</strong> Who is Adolf Hitler?</p>
 
