@@ -16,7 +16,11 @@
   </a>
 </p>
 
-Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own time and how the arguments available to them changed. For example, researchers can ask the 1913 and 1929 checkpoints the same question about the prospects for peace in Europe, then compare their answers with contemporary newspapers and books.
+Imagine asking readers of newspapers, novels and political treatises in 1913 what they saw as the greatest threat to peace. Which tensions would they name? What would they take for granted? A language model trained on texts available in 1913 gives researchers a way to explore those questions through the words and arguments in print at the time.
+
+We select training texts by publication date to study what people considered possible, what they expected to happen and which views they expressed in print. By asking the same questions of models trained through different dates, we can trace how those expectations and views changed.
+
+Our aim is to make these models accessible to researchers, teachers and the wider public, offering a window into how people in the past understood their own world.
 
 <details>
 <summary><strong>Why Ranke?</strong></summary>
