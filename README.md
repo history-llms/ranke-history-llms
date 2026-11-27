@@ -18,11 +18,18 @@
 
 Ranke is a family of language models trained from scratch on dated historical texts. We use the models to study how people wrote about their own time and how the arguments available to them changed. For example, researchers can ask the 1913 and 1929 checkpoints the same question about the prospects for peace in Europe, then compare their answers with contemporary newspapers and books.
 
+<details>
+<summary><strong>Why Ranke?</strong></summary>
+
+The name recalls the historian Leopold von Ranke and his phrase *wie es eigentlich gewesen*, often translated as “as it actually was.” Ranke sought to understand the past through its surviving sources. Our models draw on the writing available in each period to explore how people understood their own world, before they knew what came next.
+
 <p align="center">
   <a href="assets/figures/ranke-title-page.png">
     <img src="assets/figures/ranke-title-page.png" width="480" alt="Illustrated Ranke title page with a scholar at his desk and the motto ‘wie es eigentlich gewesen’ (‘as it actually was’).">
   </a>
 </p>
+
+</details>
 
 ## Announcements
 
